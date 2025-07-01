@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <meta name="description" content="KoneksiJasa - Platform penyedia jasa profesional terpercaya untuk kebutuhan rumah dan kantor. Potong rumput, cuci mobil, service AC, dan berbagai layanan berkualitas." />
+    <meta name="keywords" content="jasa profesional, potong rumput, cuci mobil, service AC" />
+    <meta name="theme-color" content="#1a365d" />
+    <title>KoneksiJasa - Solusi Layanan Profesional</title>
+    <link rel="icon" type="image/png" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzFhMzY1ZCI+PHBhdGggZD0iTTEwIDIwdjJIMTR2LTJIMTB6bTExLTE0LjY0TDE5LjM2IDcgMTguODQgNy41MkMyMSA5LjIzIDIyIDEyIDIyIDEySDJzMSAtMi43NyAzLjE2IC00LjQ4TDQuNjQgNyA2IDUuNjRDNy4zMiA0LjMyIDkgMy41NiAxMS40NCAzLjE5TDEyIDIgMTIuNTYgMy4xOUMxNSAzLjU2IDE2LjY4IDQuMzIgMTggNS42NEwyMSA1LjY0eiIvPjwvc3ZnPg==" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#beranda" class="logo">
+        <i class="fas fa-home"></i>
+        KoneksiJasa
+      </a>
+      <button class="hamburger-menu" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav id="main-nav">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#galeri" class="nav-link">Galeri</a>
+        <a href="#layanan" class="nav-link">Layanan</a>
+        <a href="#mitra" class="nav-link">Mitra</a>
+        <a href="#kontak" class="nav-link cta-button">Kontak</a>
+      </nav>
+    </header>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="beranda">
+      <div class="hero-content fade-in">
+        <h1>Solusi Layanan Profesional Terpercaya</h1>
+        <p>Temukan penyedia jasa terbaik untuk kebutuhan rumah dan kantor Anda. Potong rumput, cuci mobil, service AC, dan berbagai layanan lainnya dengan kualitas premium dan harga kompetitif.</p>
+        <div class="cta-buttons">
+          <a href="#layanan" class="btn btn-primary">
+            <i class="fas fa-rocket"></i>
+            Lihat Layanan
+          </a>
+          <a href="#mitra" class="btn btn-secondary">
+            <i class="fas fa-users"></i>
+            Mitra Kami
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section" id="tentang">
+      <div class="section-header">
+        <h2>Mengapa Memilih <span>KoneksiJasa</span>?</h2>
+        <p>Solusi terbaik untuk semua kebutuhan layanan profesional Anda dengan standar kualitas tinggi</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Mitra Terverifikasi</h3>
+          <p>Semua penyedia jasa telah melalui proses seleksi ketat dan verifikasi untuk memastikan kualitas terbaik bagi pelanggan kami.</p>
+        </div>
+
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3>Layanan 24/7</h3>
+          <p>Tim customer service kami siap melayani Anda kapan saja untuk membantu kebutuhan layanan dan memberikan solusi terbaik.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <i class="fas fa-money-bill-wave"></i>
+          </div>
+          <h3>Harga Transparan</h3>
+          <p>Tidak ada biaya tersembunyi. Semua harga jelas dan kompetitif sesuai dengan kualitas layanan yang diberikan.</p>
+        </div>
+        
+        <div class="feature-card fade-in">
+          <div class="feature-icon">
+            <i class="fas fa-thumbs-up"></i>
+          </div>
+          <h3>Garansi Kepuasan</h3>
+          <p>Kami memberikan jaminan kepuasan 100% atau kami akan mengulang layanan tanpa biaya tambahan hingga Anda puas.</p>
+        </div>
+      </div>
+
+      <!-- Professional Stats Section -->
+      <div class="stats-section">
+        <div class="stat-item fade-in">
+          <div class="stat-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="stat-value">2500+</div>
+          <div class="stat-label">Pelanggan Puas</div>
+          <div class="stat-description">Kepercayaan dari ribuan pelanggan di seluruh Indonesia</div>
+          <div class="stat-progress">
+            <div class="progress-bar" style="width: 85%;"></div>
+          </div>
+        </div>
+        
+        <div class="stat-item fade-in">
+          <div class="stat-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <div class="stat-value">150+</div>
+          <div class="stat-label">Mitra Terpercaya</div>
+          <div class="stat-description">Profesional bersertifikat dan berpengalaman tinggi</div>
+          <div class="stat-progress">
+            <div class="progress-bar" style="width: 92%;"></div>
+          </div>
+        </div>
+        
+        <div class="stat-item fade-in">
+          <div class="stat-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="stat-value">50+</div>
+          <div class="stat-label">Kota Jangkauan</div>
+          <div class="stat-description">Melayani berbagai kota besar di Indonesia</div>
+          <div class="stat-progress">
+            <div class="progress-bar" style="width: 78%;"></div>
+          </div>
+        </div>
+        
+        <div class="stat-item fade-in">
+          <div class="stat-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="stat-value">98%</div>
+          <div class="stat-label">Tingkat Kepuasan</div>
+          <div class="stat-description">Rating kepuasan pelanggan yang konsisten tinggi</div>
+          <div class="stat-progress">
+            <div class="progress-bar" style="width: 98%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section section" id="galeri">
+      <div class="section-header">
+        <h2>Galeri <span>Layanan</span> Kami</h2>
+        <p>Lihat hasil kerja profesional dari mitra-mitra terpercaya kami</p>
+      </div>
+      <div class="image-gallery fade-in">
+        <div class="gallery-slider">
+          <!-- Slide 1 - Potong Rumput -->
+          <div class="gallery-slide active">
+            <div class="slide-content">
+              <h3>Potong Rumput Professional</h3>
+              <p>Layanan pemotongan rumput dengan hasil rapi dan terawat menggunakan peralatan modern untuk halaman yang indah dan terawat sempurna.</p>
+            </div>
+          </div>
+
+          <!-- Slide 2 - Cuci Mobil -->
+          <div class="gallery-slide">
+            <div class="slide-content">
+              <h3>Cuci Mobil Premium</h3>
+              <p>Cuci mobil dengan standar premium menggunakan produk berkualitas tinggi untuk hasil yang mengkilap dan tahan lama dengan teknik profesional.</p>
+            </div>
+          </div>
+
+          <!-- Slide 3 - Service AC -->
+          <div class="gallery-slide">
+            <div class="slide-content">
+              <h3>Service AC Professional</h3>
+              <p>Teknisi berpengalaman menangani semua jenis AC dengan peralatan modern dan spare part berkualitas original untuk kenyamanan maksimal.</p>
+            </div>
+          </div>
+
+          <!-- Slide 4 - Multi Service -->
+          <div class="gallery-slide">
+            <div class="slide-content">
+              <h3>Layanan Multi Service</h3>
+              <p>Berbagai layanan maintenance kendaraan dan perawatan rumah dengan standar profesional dan hasil memuaskan untuk kepuasan pelanggan.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrow Navigation -->
+        <button class="gallery-arrows prev" onclick="changeSlide(-1)" aria-label="Previous slide">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="gallery-arrows next" onclick="changeSlide(1)" aria-label="Next slide">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <!-- Navigation Dots -->
+        <div class="gallery-nav">
+          <div class="nav-dot active" onclick="currentSlide(0)" aria-label="Slide 1"></div>
+          <div class="nav-dot" onclick="currentSlide(1)" aria-label="Slide 2"></div>
+          <div class="nav-dot" onclick="currentSlide(2)" aria-label="Slide 3"></div>
+          <div class="nav-dot" onclick="currentSlide(3)" aria-label="Slide 4"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section" id="layanan">
+      <div class="section-header">
+        <h2>Layanan <span>Unggulan</span> Kami</h2>
+        <p>Berbagai layanan profesional untuk memenuhi kebutuhan rumah dan kantor Anda dengan kualitas terbaik</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-img-container">
+            <i class="fas fa-seedling service-icon"></i>
+          </div>
+          <div class="service-content">
+            <h3 class="service-title">Potong Rumput Professional</h3>
+            <p class="service-description">Layanan pemotongan rumput profesional untuk halaman yang rapi dan terawat. Tersedia paket reguler dan one-time service dengan peralatan modern dan teknik terbaik.</p>
+            <div class="service-footer">
+              <div class="service-price">Mulai dari Rp 80.000</div>
+              <a href="javascript:void(0)" class="service-cta" onclick="openBookingModal('Potong Rumput Professional')">
+                <i class="fas fa-calendar-check"></i>
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-card fade-in">
+          <div class="service-img-container">
+            <i class="fas fa-car service-icon"></i>
+          </div>
+          <div class="service-content">
+            <h3 class="service-title">Cuci Mobil Premium</h3>
+            <p class="service-description">Cuci mobil premium dengan produk berkualitas tinggi dan teknik profesional. Termasuk cuci exterior, interior, dan waxing untuk hasil maksimal yang tahan lama.</p>
+            <div class="service-footer">
+              <div class="service-price">Mulai dari Rp 100.000</div>
+              <a href="javascript:void(0)" class="service-cta" onclick="openBookingModal('Cuci Mobil Premium')">
+                <i class="fas fa-calendar-check"></i>
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="service-card fade-in">
+          <div class="service-img-container">
+            <i class="fas fa-snowflake service-icon"></i>
+          </div>
+          <div class="service-content">
+            <h3 class="service-title">Service AC Professional</h3>
+            <p class="service-description">Jasa service dan perawatan AC profesional oleh teknisi berpengalaman. Termasuk cleaning, isi freon, dan perbaikan untuk AC rumah maupun kantor dengan garansi resmi.</p>
+            <div class="service-footer">
+              <div class="service-price">Mulai dari Rp 120.000</div>
+              <a href="javascript:void(0)" class="service-cta" onclick="openBookingModal('Service AC Professional')">
+                <i class="fas fa-calendar-check"></i>
+                Pesan Sekarang
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Providers Section -->
+    <section class="providers-section section" id="mitra">
+      <div class="section-header">
+        <h2>Mitra <span>Terpercaya</span> Kami</h2>
+        <p>Profesional berpengalaman yang siap melayani dengan standar kualitas terbaik</p>
+      </div>
+
+      <div class="providers-grid">
+        <div class="provider-card fade-in">
+          <div class="provider-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="provider-name">Erwin Gardening</div>
+          <div class="provider-rating">⭐⭐⭐⭐⭐ (4.9/5)</div>
+          <p class="provider-description">Spesialis potong rumput dan perawatan taman dengan pengalaman 5+ tahun. Menggunakan peralatan modern dan teknik terbaik untuk hasil yang memuaskan dan halaman yang indah.</p>
+          <a href="javascript:void(0)" class="provider-btn" onclick="chatMitra('Erwin Gardening', '6281237575743', 'Halo Bang Erwin! Saya ingin memesan jasa potong rumput. Mohon info untuk harga, paket, jadwal tersedia, dan area coverage. Terima kasih!')">
+            <i class="fab fa-whatsapp"></i>
+            Chat Erwin
+          </a>
+        </div>
+        
+        <div class="provider-card fade-in">
+          <div class="provider-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="provider-name">Firman Car Wash</div>
+          <div class="provider-rating">⭐⭐⭐⭐⭐ (4.8/5)</div>
+          <p class="provider-description">Jasa cuci mobil premium dengan peralatan modern dan produk berkualitas tinggi. Memberikan hasil yang memuaskan, mengkilap dan tahan lama dengan layanan profesional.</p>
+          <a href="javascript:void(0)" class="provider-btn" onclick="chatMitra('Firman Car Wash', '6285812882170', 'Halo Bang Firman! Saya ingin memesan jasa cuci mobil. Mohon info untuk paket cuci mobil, harga, jadwal booking, dan lokasi service. Terima kasih!')">
+            <i class="fab fa-whatsapp"></i>
+            Chat Firman
+          </a>
+        </div>
+        
+        <div class="provider-card fade-in">
+          <div class="provider-avatar">
+            <i class="fas fa-user-friends"></i>
+          </div>
+          <div class="provider-name">Erlangga Green Care</div>
+          <div class="provider-rating">⭐⭐⭐⭐⭐ (4.9/5)</div>
+          <p class="provider-description">Expert dalam perawatan tanaman dan landscaping untuk hunian modern. Solusi terbaik untuk taman impian Anda dengan sentuhan profesional dan desain yang menarik.</p>
+          <a href="javascript:void(0)" class="provider-btn" onclick="chatMitra('Erlangga Green Care', '6282269502453', 'Halo Bang Erlangga! Saya ingin konsultasi perawatan tanaman. Mohon info untuk layanan perawatan tanaman, paket landscaping, konsultasi desain taman, harga dan jadwal. Terima kasih!')">
+            <i class="fab fa-whatsapp"></i>
+            Chat Erlangga
+          </a>
+        </div>
+        
+        <div class="provider-card fade-in">
+          <div class="provider-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="provider-name">Kelvin Multi Service</div>
+          <div class="provider-rating">⭐⭐⭐⭐⭐ (4.7/5)</div>
+          <p class="provider-description">Jasa lengkap: cuci motor, poles mobil, dan maintenance kendaraan bergaransi. Layanan terpercaya dengan harga terjangkau dan hasil berkualitas tinggi untuk kepuasan pelanggan.</p>
+          <a href="javascript:void(0)" class="provider-btn" onclick="chatMitra('Kelvin Multi Service', '6282233665564', 'Halo Bang Kelvin! Saya ingin tanya layanan maintenance kendaraan. Mohon info untuk layanan cuci motor/mobil, paket poles kendaraan, service maintenance, dan harga paket. Terima kasih!')">
+            <i class="fab fa-whatsapp"></i>
+            Chat Kelvin
+          </a>
+        </div>
+        
+        <div class="provider-card fade-in">
+          <div class="provider-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="provider-name">Agus AC Service</div>
+          <div class="provider-rating">⭐⭐⭐⭐⭐ (4.8/5)</div>
+          <p class="provider-description">Teknisi AC bersertifikat dengan pengalaman 8+ tahun. Spesialis semua merk AC dengan layanan bergaransi resmi dan hasil memuaskan untuk kenyamanan rumah Anda.</p>
+          <a href="javascript:void(0)" class="provider-btn" onclick="chatMitra('Agus AC Service', '6285785672280', 'Halo Bang Agus! Saya butuh service AC. Mohon info untuk jenis service AC, harga service dan isi freon, garansi service, dan jadwal tersedia. Terima kasih!')">
+            <i class="fab fa-whatsapp"></i>
+            Chat Agus
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section" id="kontak">
+      <div class="footer-top">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <div class="logo">
+              <i class="fas fa-home"></i>
+              KoneksiJasa
+            </div>
+          </div>
+          <p class="footer-desc">Platform penyedia jasa profesional terpercaya untuk kebutuhan rumah dan kantor. Temukan berbagai layanan berkualitas dengan harga kompetitif dan hasil yang memuaskan.</p>
+          <div class="social-links">
+            <a href="javascript:void(0)" class="social-icon" onclick="openFacebook()" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="javascript:void(0)" class="social-icon" onclick="openTwitter()" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="javascript:void(0)" class="social-icon" onclick="openInstagram()" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="javascript:void(0)" class="social-icon" onclick="openLinkedIn()" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Layanan Kami</h4>
+          <ul class="footer-links">
+            <li><a href="#layanan">Potong Rumput</a></li>
+            <li><a href="#layanan">Cuci Mobil</a></li>
+            <li><a href="#layanan">Service AC</a></li>
+            <li><a href="#layanan">Perawatan Taman</a></li>
+            <li><a href="#layanan">Multi Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Perusahaan</h4>
+          <ul class="footer-links">
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#mitra">Mitra Kami</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#">Karir</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Hubungi Kami</h4>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Malang, Jawa Timur, Indonesia</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+62 895-3830-15559</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>koneksijasaa@gmail.com</span>
+            </div>
+          </div>
+          <div class="newsletter">
+            <h5>Kirim Email</h5>
+            <div class="newsletter-form">
+              <input type="email" placeholder="Email Anda" aria-label="Email address" />
+              <button type="submit" aria-label="Send email">Kirim</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 KoneksiJasa. Semua hak dilindungi undang-undang.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Syarat & Ketentuan</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <a href="javascript:void(0)" class="whatsapp-float" onclick="chatAdmin()" aria-label="Chat via WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="#beranda" class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Booking Modal -->
+    <div id="bookingModal" class="modal" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="modal-title">Pesan Layanan</h3>
+          <button class="close-btn" onclick="closeBookingModal()" aria-label="Close modal">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <form id="bookingForm" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="customerName">Nama Lengkap *</label>
+            <input type="text" id="customerName" class="form-input" placeholder="Masukkan nama lengkap" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="customerPhone">Nomor WhatsApp *</label>
+            <input type="tel" id="customerPhone" class="form-input" placeholder="Contoh: 08123456789" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="customerAddress">Alamat Lengkap *</label>
+            <input type="text" id="customerAddress" class="form-input" placeholder="Alamat lengkap dengan detail" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="serviceDate">Tanggal Layanan *</label>
+            <input type="date" id="serviceDate" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="serviceTime">Waktu Layanan *</label>
+            <input type="time" id="serviceTime" class="form-input" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="additionalNotes">Catatan Tambahan</label>
+            <textarea id="additionalNotes" class="form-input form-textarea" placeholder="Catatan khusus atau permintaan tambahan (opsional)"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <i class="fab fa-whatsapp"></i>
+            Kirim Pesanan via WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Success Message -->
+    <div id="successMessage" class="success-message" role="alert">
+      <i class="fab fa-whatsapp" style="font-size: 1.5rem; margin-bottom: 0.5rem;"></i>
+      <div>WhatsApp berhasil dibuka!</div>
+      <div style="font-size: 0.9rem; opacity: 0.9;">Lanjutkan di aplikasi WhatsApp</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
